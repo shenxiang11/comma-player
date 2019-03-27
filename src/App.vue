@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-player
-      :options="playOptions"
+      :options="playerOptions"
       @error="handleError"
       @statusChange="handleStatusChange"
       ref="player">
@@ -48,7 +48,7 @@ export default {
   name: 'app',
   data() {
     return {
-      videoAddress: './demo.ogg',
+      videoAddress: 'http://www.w3school.com.cn/i/movie.ogg',
       status: null,
     };
   },
@@ -59,7 +59,7 @@ export default {
     shouldShowPauseBtn() {
       return ['PLAYING'].includes(this.status);
     },
-    playOptions() {
+    playerOptions() {
       return {
         poster,
         src: this.videoAddress,

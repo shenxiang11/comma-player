@@ -1,7 +1,12 @@
 {
   "name": "comma-player",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/v-player.umd.min.js",
+  "author": {
+    "name": "shenxiang11",
+    "email": "863461783@qq.com"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
