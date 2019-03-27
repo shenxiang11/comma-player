@@ -1,6 +1,6 @@
 {
   "name": "comma-player",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/v-player.umd.min.js",
   "author": {
     "name": "shenxiang11",
