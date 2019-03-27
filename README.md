@@ -77,7 +77,7 @@ yarn add comma-player
 </template>
 
 <script>
-import 'comma-player/dist/v-player.css';
+import 'comma-player/lib/comma-player.css';
 import CommaPlayer from 'comma-player';
 
 const poster = 'https://www.baidu.com/link?url=bK12qrpwAkEPX3f00_AuMQloZ4tT5ohHGsO5x4y8rytJcXnq-9CozX4qf-qb_PJa1i6DzHXCHGnlSDrFBKKas96J7V5BczrzxX7_3nSGQ-s-1M-GOvvQ9rY7keEZ52d4ihA_bSQ6pmaMYdYc5fqTo2tY4niELWVVf33s_bx7rJgQegNO4gGI1O4OH0yntWfso26IH4mrksE6Z8-87zRvvDZBE7TAz7TMwXpWAtYoSFdlWGG_8MuyM2f8vBzE4IpbLrwYQSBT6Y8sqiA8yOJ3Z6M_ErtK3P_wVrwv-yNWMLKrwzCx0KQGaWfiC4DZbbRRLL3Xp7UDRAc-LjdJboZSvQKdJMPXAWOY-5uXSrj-SHcb8n6x9TxFrxVLdMrAT-Jca3sRnv9U-ILkpy-m41fQXX08SNhXhKLXlEDQkPSeqXOfzuRmBrzbQON0Y2qqJnl6Yita5kR_6iOhN8QcZ44WPxSd668Lyc8X4-y2CNv2gHzkJyNFAsU3SVnt3fmyR7cExWI2js2Vhtzq_leT6stx_nAzE3HrnprXdcH78k8kSHwzklhpUAEtbjr0mzTePZHswEwiHiZvd-hXjBUOtkrPLm2N7tgcxODuNZ6LBoS41HsWARIiBintRgWu8Npg7iXp6k1ubUoWDm410ZAQJQnucq&timg=https%3A%2F%2Fss0.bdstatic.com%2F94oJfD_bAAcT8t7mm9GUKT-xh_%2Ftimg%3Fimage%26quality%3D100%26size%3Db4000_4000%26sec%3D1553675495%26di%3D76a32f8b5ea481fa9bdc3793cf260941%26src%3Dhttp%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2F26118777cb366f758d7c75218cc9d6b11e1ebf64.jpg&click_t=1553675498305&s_info=1280_721&wd=&eqid=d4b9ecc500026023000000045c9b34e7';
