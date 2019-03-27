@@ -1,7 +1,7 @@
 {
   "name": "comma-player",
   "version": "0.1.1",
-  "main": "dist/v-player.umd.min.js",
+  "main": "lib/v-player.umd.min.js",
   "author": {
     "name": "shenxiang11",
     "email": "863461783@qq.com"
@@ -10,7 +10,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "package": "vue build -t lib './src/index.js'",
+    "lib": "vue build -t lib './src/index.js' --dest=lib",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
