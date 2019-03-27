@@ -1,7 +1,6 @@
 {
   "name": "v-player",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/v-player.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
