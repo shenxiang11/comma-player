@@ -1,5 +1,5 @@
 {
-  "name": "v-player",
+  "name": "comma-player",
   "version": "0.1.0",
   "main": "dist/v-player.umd.min.js",
   "scripts": {
