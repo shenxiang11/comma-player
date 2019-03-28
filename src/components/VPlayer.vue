@@ -170,14 +170,13 @@ export default {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
     .progress {
       width: 100%;
       height: 100%;
       height: 3px;
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(220,223,230,1);
       .inner {
-        background-color: #fff;
+        background-color: rgba(255,103,77,1);
         height: 100%;
       }
     }
