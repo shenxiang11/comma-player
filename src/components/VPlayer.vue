@@ -132,16 +132,6 @@ export default {
     this.$refs.video.addEventListener('emptied', this.$handleError.bind(null, '当媒介资源元素突然为空时（网络错误、加载错误等）运行脚本'));
     this.$refs.video.addEventListener('error', this.$handleError.bind(null, '当在元素加载期间发生错误时运行脚本'));
   },
-  destroyed() {
-    this.$refs.video.removeEventListener('loadstart', this.$handleLoadStart);
-    this.$refs.video.removeEventListener('loadeddata', this.$handleLoadedData);
-    this.$refs.video.removeEventListener('canplay', this.$handleCanPlay);
-    this.$refs.video.removeEventListener('play', this.$handlePlay);
-    this.$refs.video.removeEventListener('pause', this.$handlePause);
-    this.$refs.video.removeEventListener('ended', this.$handleEnd);
-    this.$refs.video.removeEventListener('emptied', this.$handleError);
-    this.$refs.video.removeEventListener('error', this.$handleError);
-  },
 };
 </script>
 
