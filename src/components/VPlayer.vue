@@ -146,15 +146,16 @@ export default {
 .__VPlayer__ {
   position: relative;
   display: inline-flex;
+  video {
+    margin: 0 auto;
+  }
   .videoName {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 5px 10px;
   }
   &:hover .videoName {
     opacity: 0;
