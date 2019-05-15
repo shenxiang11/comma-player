@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <v-player
+      videoName="测试视频"
       :options="playerOptions"
       @error="handleError"
       @statusChange="handleStatusChange"

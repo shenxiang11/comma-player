@@ -11,6 +11,9 @@
       ref="video">
         {{opt.errMsg}}
     </video>
+    <div
+      v-show="status !== 'PLAYING'"
+      class="videoName">{{videoName}}</div>
     <div class="control">
       <div class="slots">
         <slot></slot>
@@ -51,6 +54,10 @@ const STATUS = {
 export default {
   name: 'VPlayer',
   props: {
+    videoName: {
+      type: String,
+      default: '',
+    },
     options: {
       type: Object,
       default() {
@@ -139,6 +146,19 @@ export default {
 .__VPlayer__ {
   position: relative;
   display: inline-flex;
+  .videoName {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover .videoName {
+    opacity: 0;
+  }
   .control {
     position: absolute;
     top: 0;
